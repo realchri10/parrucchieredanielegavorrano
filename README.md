@@ -1,6 +1,6 @@
 # M & M di Calchetti Daniele – Parrucchiere Donna & Uomo
 
-Sito vetrina statico (HTML/CSS/JS, nessuna build) per il salone di Gavorrano (Via Trieste 2) e Caldana (GR).
+Sito vetrina statico (HTML/CSS/JS, nessuna build) per i saloni di Gavorrano (Via Giuseppe Bandi 22) e Caldana (Via Trieste 2), GR.
 
 - `index.html` – pagina unica: hero, chi siamo, servizi donna/uomo, listino, galleria, recensioni, prenotazione, sedi
 - `css/style.css` – stile (palette nero + rosso chiaro, font Cormorant Garamond + Montserrat)
@@ -13,7 +13,6 @@ Il form compone un messaggio con i dati inseriti e apre WhatsApp verso **+39 328
 ## Da personalizzare
 - Foto: le immagini sono segnaposto da Unsplash; sostituirle con foto reali del salone.
 - Listino prezzi e recensioni: valori indicativi di esempio.
-- Indirizzo esatto della sede di Gavorrano (ora indicato Via Trieste 2, come Caldana).
 
 ## Orari
 - Gavorrano: lunedì, giovedì, domenica 09:00–13:00
