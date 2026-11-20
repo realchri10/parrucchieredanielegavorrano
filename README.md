@@ -13,7 +13,7 @@ Il form compone un messaggio con i dati inseriti e apre WhatsApp verso **+39 328
 ## Da personalizzare
 - Foto: le immagini sono segnaposto da Unsplash; sostituirle con foto reali del salone.
 - Listino prezzi e recensioni: valori indicativi di esempio.
-- Indirizzo esatto della sede di Caldana.
+- Indirizzo esatto della sede di Gavorrano (ora indicato Via Trieste 2, come Caldana).
 
 ## Orari
 - Gavorrano: lunedì, giovedì, domenica 09:00–13:00
