@@ -30,16 +30,6 @@
     items.forEach(function (el) { el.classList.add('is-visible'); });
   }
 
-  // Price tabs
-  document.querySelectorAll('.tab').forEach(function (tab) {
-    tab.addEventListener('click', function () {
-      document.querySelectorAll('.tab').forEach(function (t) { t.classList.remove('is-active'); });
-      document.querySelectorAll('.price-panel').forEach(function (p) { p.classList.remove('is-active'); });
-      tab.classList.add('is-active');
-      document.getElementById(tab.dataset.tab).classList.add('is-active');
-    });
-  });
-
   // Gallery lightbox
   var lb = document.getElementById('lightbox');
   var lbImg = lb.querySelector('img');

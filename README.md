@@ -2,9 +2,9 @@
 
 Sito vetrina statico (HTML/CSS/JS, nessuna build) per i saloni di Gavorrano (Via Giuseppe Bandi 22) e Caldana (Via Trieste 2), GR.
 
-- `index.html` – pagina unica: hero, chi siamo, servizi donna/uomo, listino, galleria, recensioni, prenotazione, sedi
+- `index.html` – pagina unica: hero, chi siamo, servizi donna/uomo, galleria, recensioni, prenotazione, sedi
 - `css/style.css` – stile (palette nero + rosso chiaro, font Cormorant Garamond + Montserrat)
-- `js/main.js` – menu mobile, animazioni, tab listino, lightbox, form di prenotazione
+- `js/main.js` – menu mobile, animazioni, lightbox, form di prenotazione
 
 ## Prenotazione via WhatsApp
 Il form compone un messaggio con i dati inseriti e apre WhatsApp verso **+39 328 833 4569**
@@ -12,7 +12,7 @@ Il form compone un messaggio con i dati inseriti e apre WhatsApp verso **+39 328
 
 ## Da personalizzare
 - Foto: le immagini sono segnaposto da Unsplash; sostituirle con foto reali del salone.
-- Listino prezzi e recensioni: valori indicativi di esempio.
+- Recensioni: testi di esempio.
 
 ## Orari
 - Gavorrano: lunedì, giovedì, domenica 09:00–13:00
