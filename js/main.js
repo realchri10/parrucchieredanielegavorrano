@@ -72,6 +72,20 @@
     });
     if (!valid) { msg.textContent = 'Compila tutti i campi obbligatori.'; return; }
 
+    // Controllo giorno/sede: Gavorrano Lun-Gio-Dom 9-13, Caldana Mar-Mer-Ven-Sab 8-19
+    var giorno = new Date(form.data.value + 'T12:00:00').getDay();
+    var sede = form.sede.value;
+    var giorniGav = [1, 4, 0], giorniCal = [2, 3, 5, 6];
+    if (sede.indexOf('Gavorrano') === 0 && giorniGav.indexOf(giorno) === -1) {
+      msg.textContent = 'Gavorrano è aperto lunedì, giovedì e domenica (9:00–13:00). Scegli un altro giorno o la sede di Caldana.'; return;
+    }
+    if (sede.indexOf('Caldana') === 0 && giorniCal.indexOf(giorno) === -1) {
+      msg.textContent = 'Caldana è aperto martedì, mercoledì, venerdì e sabato (8:00–19:00). Scegli un altro giorno o la sede di Gavorrano.'; return;
+    }
+    if (sede.indexOf('Gavorrano') === 0 && form.orario.value.indexOf('Pomeriggio') === 0) {
+      msg.textContent = 'A Gavorrano siamo aperti solo la mattina (9:00–13:00).'; return;
+    }
+
     var d = new FormData(form);
     var dataIt = new Date(d.get('data') + 'T12:00:00').toLocaleDateString('it-IT', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
     var lines = [

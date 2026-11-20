@@ -13,7 +13,11 @@ Il form compone un messaggio con i dati inseriti e apre WhatsApp verso **+39 328
 ## Da personalizzare
 - Foto: le immagini sono segnaposto da Unsplash; sostituirle con foto reali del salone.
 - Listino prezzi e recensioni: valori indicativi di esempio.
-- Indirizzo esatto della sede di Caldana e orari definitivi.
+- Indirizzo esatto della sede di Caldana.
+
+## Orari
+- Gavorrano: lunedì, giovedì, domenica 09:00–13:00
+- Caldana: martedì, mercoledì, venerdì, sabato 08:00–19:00
 
 ## Pubblicazione
 Basta caricare i file su qualsiasi hosting statico (GitHub Pages, Netlify, ecc.).
