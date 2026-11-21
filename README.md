@@ -15,7 +15,7 @@ Il form compone un messaggio con i dati inseriti e apre WhatsApp verso **+39 328
 - Recensioni: testi di esempio.
 
 ## Orari
-- Gavorrano: lunedì, giovedì, domenica 09:00–13:00
+- Gavorrano: lunedì e giovedì 09:00–19:00, domenica 09:00–13:00
 - Caldana: martedì, mercoledì, venerdì, sabato 08:00–19:00
 
 ## Pubblicazione

@@ -67,13 +67,13 @@
     var sede = form.sede.value;
     var giorniGav = [1, 4, 0], giorniCal = [2, 3, 5, 6];
     if (sede.indexOf('Gavorrano') === 0 && giorniGav.indexOf(giorno) === -1) {
-      msg.textContent = 'Gavorrano è aperto lunedì, giovedì e domenica (9:00–13:00). Scegli un altro giorno o la sede di Caldana.'; return;
+      msg.textContent = 'Gavorrano è aperto lunedì e giovedì (9:00–19:00) e domenica (9:00–13:00). Scegli un altro giorno o la sede di Caldana.'; return;
     }
     if (sede.indexOf('Caldana') === 0 && giorniCal.indexOf(giorno) === -1) {
       msg.textContent = 'Caldana è aperto martedì, mercoledì, venerdì e sabato (8:00–19:00). Scegli un altro giorno o la sede di Gavorrano.'; return;
     }
-    if (sede.indexOf('Gavorrano') === 0 && form.orario.value.indexOf('Pomeriggio') === 0) {
-      msg.textContent = 'A Gavorrano siamo aperti solo la mattina (9:00–13:00).'; return;
+    if (sede.indexOf('Gavorrano') === 0 && giorno === 0 && form.orario.value.indexOf('Pomeriggio') === 0) {
+      msg.textContent = 'La domenica a Gavorrano siamo aperti solo la mattina (9:00–13:00).'; return;
     }
 
     var d = new FormData(form);
